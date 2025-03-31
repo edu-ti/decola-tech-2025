@@ -27,8 +27,8 @@ classDiagram
     class Account {
         - String number
         - String agency
-        - String balance
-        - String limit
+        - BigDecimal balance
+        - BigDecimal limit
     }
     
     class Feature {
@@ -38,7 +38,7 @@ classDiagram
     
     class Card {
         - String number
-        - String limit
+        - BigDecimal limit
     }
     
     class News {
